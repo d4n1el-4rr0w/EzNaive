@@ -20,7 +20,6 @@
 
 ```bash
 apt update && apt upgrade -y
-
 apt install -y curl wget git openssl ufw
 ```
 
@@ -31,7 +30,7 @@ apt install -y curl wget git openssl ufw
 Cкрипт установки в одну команду. Рекомендуется ознакомиться с его содержимым перед выполнением.
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/d4n1el-4rr0w/EzNaive/refs/heads/main/naive.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/d4n1el-4rr0w/EzNaive/refs/heads/main/eznaive.sh)
 ```
 
 Просмотреть зарегистрированных пользователей после выполнения скрипта:
